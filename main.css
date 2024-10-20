@@ -57,11 +57,11 @@
 }
 
 .dark-background {
-  --background-color: #37517e;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #4668a2;
-  --contrast-color: #ffffff;
+  --background-color: #ffffff;
+  --default-color: #000000;
+  --heading-color: #000000;
+  --surface-color: #000000;
+  --contrast-color: #000000;
 }
 
 /* Smooth scroll */
@@ -218,15 +218,15 @@ h6 {
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
-  --background-color: rgba(255, 255, 255, 0);
-  --heading-color: #ffffff;
-  --nav-color: #ffffff;
+  --background-color: rgba(0, 0, 0, 0);
+  --heading-color: #3d4d6a;
+  --nav-color: #000000;
 }
 
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: rgba(40, 58, 90, 0.9);
+  --background-color: rgba(255, 255, 255, 0.9);
 }
 
 /*--------------------------------------------------------------
