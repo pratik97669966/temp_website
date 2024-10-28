@@ -28,55 +28,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="/main.css" rel="stylesheet">
-  <script>
-    const domain = window.location.origin;
-    const websiteSchema = {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Deshmukh Financials",
-      "url": domain + "/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": domain + "/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    };
-
-    const webpageSchema = {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Deshmukh Financials",
-      "url": domain + "/",
-      "mainEntity": [
-        {
-          "@type": "SiteNavigationElement",
-          "name": "Home",
-          "url": domain + "/#hero"
-        },
-        {
-          "@type": "SiteNavigationElement",
-          "name": "About",
-          "url": domain + "/#about"
-        },
-        {
-          "@type": "SiteNavigationElement",
-          "name": "Services",
-          "url": domain + "/#services"
-        },
-        {
-          "@type": "SiteNavigationElement",
-          "name": "Contact",
-          "url": domain + "/#contact"
-        }
-      ]
-    };
-
-    document.write('<script type="application/ld+json">' + JSON.stringify(websiteSchema) + '</script>');
-  document.write('
-  <script type="application/ld+json">' + JSON.stringify(webpageSchema) + '</script>');
-  </script>
 </head>
 
 <body class="index-page">
