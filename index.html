@@ -4,9 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Deshmukh Financials Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Deshmukh Financials - Trusted Financial Solutions</title>
+  <meta name="description"
+    content="Explore trusted financial planning and advisory services tailored for businesses and individuals at Deshmukh Financials.">
+  <meta name="keywords"
+    content="deshmukh,financial planning, investment advisory, wealth management, business financial solutions, personal finance, Deshmukh Financials, Georai financial services">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -28,14 +30,53 @@
 
   <!-- Main CSS File -->
   <link href="/main.css" rel="stylesheet">
+  <script>
+    const domain = window.location.origin;
+    const websiteSchema = {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Deshmukh Financials",
+      "url": domain + "/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": domain + "/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    };
 
-  <!-- =======================================================
-  * Template Name: Deshmukh Financials
-  * Template URL: https://bootstrapmade.com/Deshmukh Financials-free-bootstrap-html-template-corporate/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    const webpageSchema = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Deshmukh Financials",
+      "url": domain + "/",
+      "mainEntity": [
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Home",
+          "url": domain + "/#hero"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "About",
+          "url": domain + "/#about"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Services",
+          "url": domain + "/#services"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Contact",
+          "url": domain + "/#contact"
+        }
+      ]
+    };
+
+    document.write('<script type="application/ld+json">' + JSON.stringify(websiteSchema) + '</script>');
+  document.write('
+  <script type="application/ld+json">' + JSON.stringify(webpageSchema) + '</script>');
+  </script>
 </head>
 
 <body class="index-page">
@@ -72,7 +113,7 @@
 
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" >
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>Better Solutions For Your Business And Your Financial Needs</h1>
             <p>We are team of talented Financial team will handel all your Financial Plannings.</p>
             <div class="d-flex">
@@ -82,7 +123,7 @@
                   Video</span></a>
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 hero-img" >
+          <div class="col-lg-6 order-1 order-lg-2 hero-img">
             <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
           </div>
         </div>
@@ -183,7 +224,7 @@
     <section id="about" class="about section">
 
       <!-- Section Title -->
-      <div class="container section-title" >
+      <div class="container section-title">
         <h2>About Us</h2>
       </div><!-- End Section Title -->
 
@@ -191,7 +232,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-6 content" >
+          <div class="col-lg-6 content">
             <p>
               At Deshmukhh Financials, we are dedicated to helping you achieve your financial goals. Our mission is to
               provide practical and reliable financial advice that you can count on. We understand that managing your
@@ -208,7 +249,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-6" >
+          <div class="col-lg-6">
             <p>Our expert team specializes in a wide range of financial services, including investments, insurance,
               business formation, and business support. Whether you are an individual looking to grow your wealth or a
               business owner seeking guidance, we tailor our services to meet your unique needs.</p>
@@ -228,7 +269,7 @@
 
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
 
-            <div class="content px-xl-5" >
+            <div class="content px-xl-5">
               <h3><span>Why Choose Deshmukhh Financials?</span><strong> Your Trusted Financial Partner</strong></h3>
               <p>
                 At Deshmukhh Financials, we believe in empowering our clients with the knowledge and tools needed to
@@ -236,7 +277,7 @@
               </p>
             </div>
 
-            <div class="faq-container px-xl-5" >
+            <div class="faq-container px-xl-5">
 
               <div class="faq-item faq-active">
                 <h3><span>01</span> Expert Guidance</h3>
@@ -288,7 +329,7 @@
           </div>
 
           <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="assets/img/why-us.png" class="img-fluid" alt="" >
+            <img src="assets/img/why-us.png" class="img-fluid" alt="">
           </div>
         </div>
 
@@ -300,7 +341,7 @@
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" >
+      <div class="container section-title">
         <h2>Our Financial Services</h2>
         <p>At Deshmukhh Financials, we offer a range of solutions tailored to meet your unique financial needs and
           goals.</p>
@@ -310,7 +351,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-xl-3 col-md-6 d-flex" >
+          <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-activity icon"></i></div>
               <h4><a href="" class="stretched-link">Investments </a></h4>
@@ -320,7 +361,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" >
+          <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
               <h4><a href="" class="stretched-link">Insurance</a></h4>
@@ -329,7 +370,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex"  >
+          <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
               <h4><a href="" class="stretched-link">Business Formation</a></h4>
@@ -338,7 +379,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-3 col-md-6 d-flex" >
+          <div class="col-xl-3 col-md-6 d-flex">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-broadcast icon"></i></div>
               <h4><a href="" class="stretched-link">Business Support</a></h4>
@@ -354,7 +395,7 @@
     </section><!-- /Services Section -->
 
     <section id="calculator" class="index-page calculator_body">
-      <div class="container section-title" >
+      <div class="container section-title">
         <h2>Calculator</h2>
         <p></p>
         <br>
@@ -420,11 +461,11 @@
     <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
-      <div class="container section-title" >
+      <div class="container section-title">
         <h2>Testimonials</h2>
       </div><!-- End Section Title -->
 
-      <div class="container" >
+      <div class="container">
 
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
@@ -623,7 +664,7 @@
     <section id="faq-2" class="faq-2 section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" >
+      <div class="container section-title">
         <h2>Frequently Asked Questions</h2>
       </div><!-- End Section Title -->
 
@@ -635,7 +676,7 @@
 
             <div class="faq-container">
 
-              <div class="faq-item faq-active" >
+              <div class="faq-item faq-active">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q1: What services does Deshmukhh Financials offer?</h3>
                 <div class="faq-content">
@@ -646,7 +687,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item"  >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q2: How can Deshmukhh Financials help with investments?</h3>
                 <div class="faq-content">
@@ -657,7 +698,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item"  >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q3: Why is insurance important in financial planning?</h3>
                 <div class="faq-content">
@@ -668,7 +709,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q4: What is involved in the business formation service?</h3>
                 <div class="faq-content">
@@ -679,7 +720,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q5: What kind of business support does Deshmukhh Financials offer?</h3>
                 <div class="faq-content">
@@ -689,7 +730,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q6: How can I benefit from tax planning?</h3>
                 <div class="faq-content">
@@ -699,7 +740,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q7: What does retirement planning involve?</h3>
                 <div class="faq-content">
@@ -710,7 +751,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q8: How does estate planning work?</h3>
                 <div class="faq-content">
@@ -721,7 +762,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q9: What is financial consulting?</h3>
                 <div class="faq-content">
@@ -732,7 +773,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q10: Why is risk management important?</h3>
                 <div class="faq-content">
@@ -743,7 +784,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item"  >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q11: What does wealth management entail?</h3>
                 <div class="faq-content">
@@ -754,7 +795,7 @@
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item"  >
+              <div class="faq-item">
                 <i class="faq-icon bi bi-question-circle"></i>
                 <h3>Q12: How can I contact Deshmukhh Financials?</h3>
                 <div class="faq-content">
@@ -779,19 +820,19 @@
     <section id="contact" class="contact section">+
 
       <!-- Section Title -->
-      <div class="container section-title" >
+      <div class="container section-title">
         <h2>Contact</h2>
         <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
-      <div class="container" >
+      <div class="container">
 
         <div class="row gy-4">
 
           <div class="col-lg-5">
 
             <div class="info-wrap">
-              <div class="info-item d-flex" >
+              <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
@@ -799,7 +840,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex"  >
+              <div class="info-item d-flex">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Us</h3>
@@ -809,7 +850,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex"  >
+              <div class="info-item d-flex">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
@@ -825,7 +866,7 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" >
+            <form action="forms/contact.php" method="post" class="php-email-form">
               <div class="row gy-4">
 
                 <div class="col-md-6">
