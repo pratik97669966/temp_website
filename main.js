@@ -1,6 +1,6 @@
 /**
-* Template Name: DeshmukhhFinancials
-* Template URL: https://bootstrapmade.com/DeshmukhhFinancials-free-bootstrap-html-template-corporate/
+* Template Name: Deshmukhh Financials
+* Template URL: https://bootstrapmade.com/Deshmukhh Financials-free-bootstrap-html-template-corporate/
 * Updated: Aug 07 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
